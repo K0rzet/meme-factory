@@ -1,0 +1,75 @@
+.LoadingContainer {
+    height: 100vh;
+}
+
+.ConnectButton {
+    background-color: #fecf0a;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,background-color .08s ease-in;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.ConnectButton:focus {
+    background-color: #ffd844;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+    min-height: 400px;
+    margin-bottom: 5vh;
+}
+
+.linkContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.linkContainer > h3 {
+    margin: 0 0 2vw;
+}
+
+.accent {
+    color: #fecf0a;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    color: lightgray;
+    text-align: justify;
+    margin-top: 4vh;
+    margin-bottom: 7vh;
+}
+
+.title {
+    margin: 6vh auto 0;
+}
+
+.image {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    margin-top: 7vh;
+}

@@ -1,0 +1,12 @@
+.desc-content > * {
+    margin: 0;
+    padding: 0;
+}
+
+.desc-content > ul {
+    margin-left: 7vw;
+}
+
+.desc-content > ol {
+    margin-left: 7vw;
+}
